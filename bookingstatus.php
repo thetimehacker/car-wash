@@ -98,8 +98,9 @@
   <?php
     session_start();
     include('connection.php');
-    $check=$db->prepare('SELECT * FROM bookings');
-    $check->execute();
+    $check=$db->prepare('SELECT * FROM bookings where uid=?');
+    $data=array($_SESSION['uid']);
+    $check->execute($data);
     if($check->rowcount()==0){
       //No bookings yet
 
@@ -154,8 +155,9 @@
           // session_start();
           
           include('connection.php');
-          $check=$db->prepare('SELECT * FROM bookings');
-          $check->execute();
+          $check=$db->prepare('SELECT * FROM bookings where uid=?');
+          $data=array($_SESSION['uid']);
+          $check->execute($data);
           if($check->rowcount()==0){
             echo 'Empty Table'; //->> 0 for account does not exist
           }
