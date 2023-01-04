@@ -37,3 +37,13 @@ Only New users will have to create account. Only 1 admin will be there and no ot
 > User will be able to see his Booking Status. Also he can cancel his booking accordingly
 
 ![Screenshot (303)](https://user-images.githubusercontent.com/60649611/210354451-3f235a8a-a08d-407f-b897-02879122b690.png)
+
+
+## Database Schema
+
+> Here is the database schema of four tables that I used in the project
+![Screenshot (307)](https://user-images.githubusercontent.com/60649611/210500615-06f3444b-f8af-4f8f-8427-e9ec88271184.png)
+![Screenshot (308)](https://user-images.githubusercontent.com/60649611/210500625-2b2135e7-3e32-4d94-96c2-57d83405a7a0.png)
+![Screenshot (309)](https://user-images.githubusercontent.com/60649611/210500627-8b85abdb-dee4-4bbd-b728-e104cf63292e.png)
+![Screenshot (310)](https://user-images.githubusercontent.com/60649611/210500632-e652489f-631c-44c2-b00c-75790ccf4b4f.png)
+
